@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Open Cart Test Regression Playwright Suite</span>
+              <span class="suite-name border-failed">Open Cart Test Regression Playwright Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Open_Cart_Test_Regression_Playwright_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" class="hide-methods failed suite-Open_Cart_Test_Regression_Playwright_Suite"> (hide)</a> <!-- hide-methods failed suite-Open_Cart_Test_Regression_Playwright_Suite -->
+                      <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" class="show-methods failed suite-Open_Cart_Test_Regression_Playwright_Suite"> (show)</a> <!-- show-methods failed suite-Open_Cart_Test_Regression_Playwright_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Open_Cart_Test_Regression_Playwright_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="forgotPwdLinkExistTest">forgotPwdLinkExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Open_Cart_Test_Regression_Playwright_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +116,11 @@
                       <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" class="show-methods passed suite-Open_Cart_Test_Regression_Playwright_Suite"> (show)</a> <!-- show-methods passed suite-Open_Cart_Test_Regression_Playwright_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Open_Cart_Test_Regression_Playwright_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="appLoginTest">appLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.HomePageTest" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
@@ -114,17 +133,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageNavigationTest">loginPageNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(Samsung)">searchTest(Samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" title="com.qa.opencart.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(Samsung)">searchTest(Samsung)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Open_Cart_Test_Regression_Playwright_Suite -->
@@ -139,6 +163,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Open_Cart_Test_Regression_Playwright_Suite" class="panel Open_Cart_Test_Regression_Playwright_Suite">
+          <div class="suite-Open_Cart_Test_Regression_Playwright_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPwdLinkExistTest">
+                  </a> <!-- forgotPwdLinkExistTest -->
+                  <span class="method-name">forgotPwdLinkExistTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.opencart.tests.LoginPageTest.forgotPwdLinkExistTest(LoginPageTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Open_Cart_Test_Regression_Playwright_Suite-class-failed -->
           <div class="suite-Open_Cart_Test_Regression_Playwright_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,6 +229,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="searchTest(Samsung)">
+                  </a> <!-- searchTest(Samsung) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="searchTest(iMac)">
                   </a> <!-- searchTest(iMac) -->
                   <span class="method-name">searchTest</span>
@@ -175,12 +251,26 @@
                   <span class="parameters">(Macbook)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Open_Cart_Test_Regression_Playwright_Suite-class-passed -->
+          <div class="suite-Open_Cart_Test_Regression_Playwright_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchTest(Samsung)">
-                  </a> <!-- searchTest(Samsung) -->
-                  <span class="method-name">searchTest</span>
-                  <span class="parameters">(Samsung)</span>
+                  <a name="appLoginTest">
+                  </a> <!-- appLoginTest -->
+                  <span class="method-name">appLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageNavigationTest">
+                  </a> <!-- loginPageNavigationTest -->
+                  <span class="method-name">loginPageNavigationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,12 +284,20 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Open Cart Test Regression Playwright Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Open Cart Home Page Test&quot; verbose=&quot;4&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Open Cart Test Regression Playwright Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Open Cart Home Page Test&quot; verbose=&quot;4&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.opencart.tests.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Open Cart Home Page Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Open Cart Login Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Open Cart Login Page Test --&gt;
 &lt;/suite&gt; &lt;!-- Open Cart Test Regression Playwright Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,6 +310,9 @@
             <ul>
               <li>
                 <span class="test-name">Open Cart Home Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Open Cart Login Page Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,32 +338,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchTest')
-data.setCell(0, 2, 'com.qa.opencart.tests.HomePageTest')
-data.setCell(0, 3, 1372);
+data.setCell(0, 1, 'appLoginTest')
+data.setCell(0, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(0, 3, 1397);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchTest')
 data.setCell(1, 2, 'com.qa.opencart.tests.HomePageTest')
-data.setCell(1, 3, 1133);
+data.setCell(1, 3, 1144);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchTest')
-data.setCell(2, 2, 'com.qa.opencart.tests.HomePageTest')
-data.setCell(2, 3, 936);
+data.setCell(2, 1, 'loginPageNavigationTest')
+data.setCell(2, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(2, 3, 956);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'homePageTitleTest')
+data.setCell(3, 1, 'searchTest')
 data.setCell(3, 2, 'com.qa.opencart.tests.HomePageTest')
-data.setCell(3, 3, 55);
+data.setCell(3, 3, 940);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'homePageURLTest')
+data.setCell(4, 1, 'searchTest')
 data.setCell(4, 2, 'com.qa.opencart.tests.HomePageTest')
-data.setCell(4, 3, 3);
+data.setCell(4, 3, 939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homePageTitleTest')
+data.setCell(5, 2, 'com.qa.opencart.tests.HomePageTest')
+data.setCell(5, 3, 11);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'forgotPwdLinkExistTest')
+data.setCell(6, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(6, 3, 8);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'homePageURLTest')
+data.setCell(7, 2, 'com.qa.opencart.tests.HomePageTest')
+data.setCell(7, 3, 2);
 window.suiteTableData['Open_Cart_Test_Regression_Playwright_Suite']= { tableData: data, tableDiv: 'times-div-Open_Cart_Test_Regression_Playwright_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Open_Cart_Test_Regression_Playwright_Suite">
               </div> <!-- times-div-Open_Cart_Test_Regression_Playwright_Suite -->
             </div> <!-- times-div -->
@@ -293,29 +406,63 @@ return data;
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPageNavigationTest</span>
+                <span class="method-start">10992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">forgotPwdLinkExistTest</span>
+                <span class="method-start">12278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">appLoginTest</span>
+                <span class="method-start">12459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">9556 ms</span>
+                <span class="method-start">13415 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageURLTest</span>
-                <span class="method-start">9622 ms</span>
+                <span class="method-start">13839 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchTest(Macbook)</span>
-                <span class="method-start">9634 ms</span>
+                <span class="method-start">14158 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14302 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchTest(iMac)</span>
-                <span class="method-start">11010 ms</span>
+                <span class="method-start">15668 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchTest(Samsung)</span>
-                <span class="method-start">12144 ms</span>
+                <span class="method-start">16778 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13085 ms</span>
+                <span class="method-start">17934 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

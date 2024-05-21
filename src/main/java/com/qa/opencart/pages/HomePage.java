@@ -11,6 +11,8 @@ public class HomePage {
 	private String search = "input[name='search']";
 	private String searchIcon = "div#search button";
 	private String searchPageHeader = "div#content h1";
+	private String myAccountLink = "a[title='My Account']";
+	private String loginLink = "a:text('Login')";
 
 	// 2. page constructor
 
@@ -46,6 +48,13 @@ public class HomePage {
 		System.out.println("search header is: " + header);
 		return header;
 		
+	}
+	
+	public LoginPage navigateToLoginPage() {
+		
+		page.click(myAccountLink);
+		page.click(loginLink);
+		return new LoginPage(page);
 	}
 
 }

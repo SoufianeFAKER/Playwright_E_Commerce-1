@@ -15,15 +15,15 @@
 		</classes>
 	</test>
 
-	<test name="Open Cart Login Page Test_firefox">
-		<parameter name="browser" value="firefox" />
+	<test name="Open Cart Login Page Test_chromium">
+		<parameter name="browser" value="chromium" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
-	<test name="Open Cart Home Page Test_chromium">
-		<parameter name="browser" value="chromium" />
+	<test name="Open Cart Home Page Test_firefox">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>

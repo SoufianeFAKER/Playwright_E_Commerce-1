@@ -4,15 +4,16 @@
   <listeners>
     <listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Open Cart Login Page Test(failed)" verbose="4">
+  <test thread-count="5" parallel="tests" name="Open Cart Login Page Test_firefox(failed)" verbose="4">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.qa.opencart.tests.LoginPageTest">
         <methods>
-          <include name="forgotPwdLinkExistTest"/>
           <include name="setup"/>
+          <include name="appLoginTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Open Cart Login Page Test(failed) -->
+  </test> <!-- Open Cart Login Page Test_firefox(failed) -->
 </suite> <!-- Failed suite [Open Cart Test Regression Playwright Suite] -->

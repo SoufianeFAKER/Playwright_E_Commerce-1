@@ -22,9 +22,10 @@
 		</classes>
 	</test>
 	
+	  
 
 	<test name="Open Cart Home Page Test_firrefox">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chromium" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
@@ -36,5 +37,7 @@
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
+	
+	
 
 </suite> 

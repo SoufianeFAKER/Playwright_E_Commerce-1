@@ -23,8 +23,8 @@
 	</test>
 	
 
-	<test name="Open Cart Home Page Test_chrome">
-		<parameter name="browser" value="chrome" />
+	<test name="Open Cart Home Page Test_firrefox">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
